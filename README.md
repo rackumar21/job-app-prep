@@ -43,11 +43,3 @@ python prep.py --jd jd.txt --notes extra_notes.txt
 
 Uses Claude Opus 4.6 via the Anthropic API.
 
----
-
-## What I learned
-
-- **Generic tools don't get used.** The first version had my background hardcoded — which made it fast to build but useless to anyone else. Separating the profile into a gitignored file made it a real tool, not a personal script.
-- **The cover letter problem is a context problem.** A good cover letter requires knowing the company, the role, and the candidate's strongest relevant story — all at once. That's exactly what a well-structured context window solves. The output quality improved dramatically once the profile format was tightened.
-- **JD language is a signal, not just keywords.** The way a company writes a JD tells you what they actually care about — "forward deployed" vs "strategic" vs "cross-functional" signals completely different cultures. Training the model to reflect that language back is half the value.
-- **Streaming output changes how you use a tool.** Watching the cover letter generate line by line made it easier to spot where it went wrong and iterate — versus reading a wall of text at the end and feeling like you had to accept or reject the whole thing.
