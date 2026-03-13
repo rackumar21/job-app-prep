@@ -1,0 +1,26 @@
+# Your candidate profile — fill this in, save as profile.txt
+# profile.txt is gitignored so your personal details stay private.
+
+## Current role
+- [Title] at [Company] ([team/focus], [start date]-present, [location])
+  - [Impact bullet 1]
+  - [Impact bullet 2]
+  - [Impact bullet 3]
+
+## Previous roles
+- [Title] at [Company] ([dates])
+  - [What you did / key impact]
+- [Title] at [Company] ([dates])
+  - [What you did / key impact]
+
+## Side projects / startups
+- [Project name]: [what it is, what you built, key outcomes]
+
+## Education
+- [Degree] at [School] ([years], [relevant details like GPA, honors])
+
+## Target company profile
+[Describe the type of company you're targeting — size, stage, type of product, what they value in PMs]
+
+## Strengths to emphasize
+[3-4 things you want to make sure come through in every application]

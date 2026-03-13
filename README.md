@@ -15,6 +15,8 @@ Given a JD, it produces:
 
 ```bash
 pip install -r requirements.txt
+cp profile.example.txt profile.txt   # copy the template
+# edit profile.txt with your background — this file is gitignored
 export ANTHROPIC_API_KEY=your_key_here
 ```
 
@@ -28,13 +30,13 @@ python prep.py
 From files:
 ```bash
 python prep.py --jd jd.txt
-python prep.py --jd jd.txt --resume extra_notes.txt
+python prep.py --jd jd.txt --notes extra_notes.txt
 ```
 
 ## Tips
 
-- The tool already knows your background (PayPal, TruthSeek, Lunar, Wharton, finance)
-- Use `--resume` to add role-specific context: which experiences you most want to highlight, anything unique about this company you've researched
+- Your background lives in `profile.txt` (gitignored — never committed to GitHub)
+- Use `--notes` to add role-specific context: experiences you want to highlight, research you've done on the company
 - Save the output before closing — it streams directly to terminal
 
 ## Model
